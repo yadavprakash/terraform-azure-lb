@@ -159,7 +159,7 @@ module "load-balancer" {
   public_ip_enabled = true
   ip_version        = "IPv4"
   #Backend Pool
-  is_enable_backend_pool = true
+  is_enable_backend_pool            = true
   ip_configuration_name_association = ["app-test-public-ip-1", "app-test-public-ip-2"]
   remote_port = {
     ssh   = ["Tcp", "22"]
