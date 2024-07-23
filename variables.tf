@@ -251,5 +251,3 @@ variable "ip_configuration_name_association" {
   type        = list(string)
   default     = [""]
 }
-
-

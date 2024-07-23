@@ -25,7 +25,7 @@ for creating AZURE resources, and you can customize the inputs as needed. Below 
 
 ```hcl
 module "basic-load-balancer" {
-  source              = "git::https://github.com/opsstation/terraform-azure-lb.git?ref=v1.0.0"
+  source              = "git::https://github.com/yadavprakash/terraform-azure-lb.git?ref=v1.0.0"
   #Labels
   name                = "app"
   environment         = "test"
@@ -68,7 +68,7 @@ module "basic-load-balancer" {
 
 ```hcl
 module "private-load-balancer" {
-  source                                = "git::https://github.com/opsstation/terraform-azure-lb.git?ref=v1.0.0"
+  source                                = "git::https://github.com/yadavprakash/terraform-azure-lb.git?ref=v1.0.0"
   #Labels
   name                                  = "app"
   environment                           = "test"
@@ -106,7 +106,7 @@ module "private-load-balancer" {
 
 ```hcl
 module "public-load-balancer" {
-  source                            = "git::https://github.com/opsstation/terraform-azure-lb.git?ref=v1.0.0"
+  source                            = "git::https://github.com/yadavprakash/terraform-azure-lb.git?ref=v1.0.0"
   #Labels
   name                              = "app"
   environment                       =  "test"
@@ -150,14 +150,14 @@ module "public-load-balancer" {
 This example demonstrates how to create various AZURE resources using the provided modules. Adjust the input values to suit your specific requirements.
 
 # Examples
-For detailed examples on how to use this module, please refer to the [examples](https://github.com/opsstation/terraform-azure-lb/blob/master/_examples) directory within this repository.
+For detailed examples on how to use this module, please refer to the [examples](https://github.com/yadavprakash/terraform-azure-lb/blob/master/_examples) directory within this repository.
 
 # License
-This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/opsstation/terraform-azure-lb/blob/master/LICENSE) file for more details.
+This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/yadavprakash/terraform-azure-lb/blob/master/LICENSE) file for more details.
 
 # Author
 Your Name
-Replace **MIT** and **OpsStation** with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
+Replace **MIT** and **yadavprakash** with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -177,7 +177,7 @@ Replace **MIT** and **OpsStation** with the appropriate license and your informa
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/opsstation/terraform-azure-labels.git | v1.0.0 |
+| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/yadavprakash/terraform-azure-labels.git | v1.0.0 |
 
 ## Resources
 
